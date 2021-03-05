@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${file}",
+            "args": [],
+            "runtimeArgs": [
+                "lts"
+            ],
+            "windows": {
+                "runtimeExecutable": "%LOCALAPPDATA%\\nvs\\nvs.cmd"
+            },
+            "osx": {
+                "runtimeExecutable": "nvs"
+            },
+            "linux": {
+                "runtimeExecutable": "nvs"
+            }
+        },
+    ]
+}
