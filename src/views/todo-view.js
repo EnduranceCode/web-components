@@ -40,7 +40,7 @@ class TodoView extends LitElement {
             </div>
 
             <div class="todos-list">
-                ${this.todos.map(todo => html `
+                ${this.applyFilter(this.todos).map(todo => html `
                     <div class="todo-item">
                         <vaadin-checkbox
                             ?checked="${todo.complete}"
@@ -49,6 +49,16 @@ class TodoView extends LitElement {
                     </div>
                 `)}
             </div>
+
+            <vaadin-radio-group
+                class="visibility-filters"
+                value="${this.filter}"
+                @value-changed="${this.filterChanged}"
+            >
+                ${Object.values(VisibilityFilters).map(filter => html `
+                    <vaadin-radio-button value="${filter}">${filter}</vaadin-radio-button>
+                `)}
+            </vaadin-radio-group>
         `;
     }
 
@@ -75,6 +85,21 @@ class TodoView extends LitElement {
 
     updateTodoStatus(updatedTodo, complete) {
         this.todos = this.todos.map(todo => updatedTodo === todo ? {...updatedTodo, complete} : todo);
+    }
+
+    filterChanged(e) {
+        this.filter = e.target.value;
+    }
+
+    applyFilter(todos) {
+        switch (this.filter) {
+            case VisibilityFilters.SHOW_ACTIVE:
+                return todos.filter(todo => !todo.complete);
+            case VisibilityFilters.SHOW_COMPLETED:
+                return todos.filter(todo => todo.complete);
+            default:
+                return todos;
+        }
     }
 }
 
