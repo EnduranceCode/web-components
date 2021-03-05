@@ -59,6 +59,10 @@ class TodoView extends LitElement {
                     <vaadin-radio-button value="${filter}">${filter}</vaadin-radio-button>
                 `)}
             </vaadin-radio-group>
+
+            <vaadin-button @click="${this.clearCompleted}">
+                Clear Completed
+            </vaadin-button>
         `;
     }
 
@@ -100,6 +104,10 @@ class TodoView extends LitElement {
             default:
                 return todos;
         }
+    }
+
+    clearCompleted() {
+        this.todos = this.todos.filter(todo => !todo.complete);
     }
 }
 
