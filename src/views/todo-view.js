@@ -1,15 +1,16 @@
-import {LitElement, html} from '@polymer/lit-element';
+import { html } from 'lit-element';
+import { connect } from 'pwa-helpers';
+import { store } from '../redux/store.js';
+import { BaseView } from './base-view.js';
 import '@vaadin/vaadin-text-field';
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-checkbox';
 import '@vaadin/vaadin-radio-button/vaadin-radio-button';
 import '@vaadin/vaadin-radio-button/vaadin-radio-group';
 import { getVisibleTodosSelector, VisibilityFilters } from '../redux/reducer.js';
-import { connect } from 'pwa-helpers';
-import { store } from '../redux/store.js';
 import { addTodo, updateTodoStatus, updateFilter, clearCompleted } from '../redux/actions.js';
 
-class TodoView extends connect(store)(LitElement) {
+class TodoView extends connect(store)(BaseView) {
 
     static get properties() {
         return {
@@ -115,10 +116,6 @@ class TodoView extends connect(store)(LitElement) {
 
     clearCompleted() {
         store.dispatch(clearCompleted());
-    }
-
-    createRenderRoot() {
-        return this;
     }
 }
 
