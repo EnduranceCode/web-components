@@ -6,6 +6,10 @@ This repository contains the list of the **documentation** used and **code** wri
 
 There's a folder in the root of this repository for each tutorial followed. Each of those folders contains a project that can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
+## Documentation List
+
+1. [Web Components — the right way](https://equinusocio.dev/blog/web-components-the-right-way/);
+
 ## Code Tutorials
 
 ### LitElement Tutorial
