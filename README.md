@@ -10,6 +10,14 @@ There's a folder in the root of this repository for each tutorial followed. Each
 
 1. [Web Components — the right way](https://equinusocio.dev/blog/web-components-the-right-way/);
 
+2. [Google Developers/Web/Fundamentals/Web Components](https://developers.google.com/web/fundamentals/web-components);
+
+    2.1. [Custom Elements](https://developers.google.com/web/fundamentals/web-components/customelements);
+
+    2.2. [Shadow DOM](https://developers.google.com/web/fundamentals/web-components/shadowdom);
+
+    2.3. [Custom Element Best Practices](https://developers.google.com/web/fundamentals/web-components/best-practices);
+
 ## Code Tutorials
 
 ### LitElement Tutorial
