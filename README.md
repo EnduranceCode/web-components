@@ -1,6 +1,16 @@
-# LitElement Tutorial
+# Web Components Tutorials
 
-This repository contains the code written following the [LitElement Tutorial](https://www.youtube.com/playlist?list=PLcRrh9hGNalntG2rSxMJAilOWHnlSoHKI) created by [Marcus Hellberg](https://twitter.com/marcushellberg) and made available by [vaadin](https://vaadin.com/).
+This repository contains the list of the **documentation** used and **code** written following tutorials while learning about [Web Components](https://www.webcomponents.org/) and related libraries/frameworks like [Polymer](https://www.polymer-project.org/) and [LitElement](https://lit-element.polymer-project.org/).
+
+## Repository Structure
+
+There's a folder in the root of this repository for each tutorial followed. Each of those folders contains a project that can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+
+## Code Tutorials
+
+### LitElement Tutorial
+
+This code written following the [LitElement Tutorial](https://www.youtube.com/playlist?list=PLcRrh9hGNalntG2rSxMJAilOWHnlSoHKI) created by [Marcus Hellberg](https://twitter.com/marcushellberg) and made available by [vaadin](https://vaadin.com/) is stored in the folder [`lit-element-tutorial`](./lit-element-tutorial) of this repository.
 
 The text, and also the videos, of this tutorial can be found at [vaadin's website](https://vaadin.com/tutorials/lit-element).
 
