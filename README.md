@@ -18,6 +18,14 @@ There's a folder in the root of this repository for each tutorial followed. Each
 
     2.3. [Custom Element Best Practices](https://developers.google.com/web/fundamentals/web-components/best-practices);
 
+3. [MDN Web Docs/Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components);
+
+    3.1. [Using custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements);
+
+    3.2. [Using shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM);
+
+    3.3. [https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots);
+
 ## Code Tutorials
 
 ### LitElement Tutorial
