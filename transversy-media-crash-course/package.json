@@ -1,0 +1,23 @@
+{
+  "name": "transversy-media-crash-course",
+  "version": "1.0.0",
+  "description": "Code written following the tutorial Web Components Crash Course by Transversy Media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "EnduranceCode",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnduranceCode/web-components.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}

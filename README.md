@@ -41,3 +41,7 @@ This tutorial is composed by the following five chapters/videos:
 * V03: [Using Redux in a LitElement app](https://vaadin.com/learn/tutorials/lit-element/state-management-with-redux);
 * V04: [Navigation and code splitting in a LitElement project](https://vaadin.com/learn/tutorials/lit-element/navigation-and-code-splitting);
 * V05: [PWA and offline](https://vaadin.com/learn/tutorials/lit-element/pwa-and-offline).
+
+### Transversy Media Web Components Crash Course
+
+The code written following the tutorial [Web Components Crash Course](https://youtu.be/PCWaFLy3VUo) published by [Traversy Media](https://www.traversymedia.com/) on their [youTube Channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) is stored in the folder [`transversy-media-crash-course`](./transversy-media-crash-course) of this repository.
