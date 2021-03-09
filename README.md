@@ -24,7 +24,7 @@ There's a folder in the root of this repository for each tutorial followed. Each
 
     3.2. [Using shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM);
 
-    3.3. [https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots);
+    3.3. [Using templates and slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots);
 
 ## Code Tutorials
 
