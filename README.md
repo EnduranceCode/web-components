@@ -6,6 +6,14 @@ This repository contains the list of the **documentation** used and **code** wri
 
 There's a folder in the root of this repository for each tutorial followed. Each of those folders contains a project that can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
+### Starter Project
+
+The folder [`web-dev-server-starter`](./web-dev-server-starter) of this repository contains a npm project to be used as an optional starter template for the tutorials folllowed to learn about [Web Components](https://www.webcomponents.org/). To use this folder as a starter template, copy/clone it to another folder and then *change directory* to the new folder. Once in the new folder, edit the file `package.json` as needed and then run the following command:
+
+    npm install
+
+Downloading just the folder [`web-dev-server-starter`](./web-dev-server-starter) from [GitHub](https://github.com/) is easily made with the [DownGit](https://downgit.github.io/) online tool.
+
 ## Documentation List
 
 1. [Web Components — the right way](https://equinusocio.dev/blog/web-components-the-right-way/);
