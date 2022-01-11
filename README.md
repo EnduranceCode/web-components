@@ -45,3 +45,7 @@ This tutorial is composed by the following five chapters/videos:
 ### Transversy Media Web Components Crash Course
 
 The code written following the tutorial [Web Components Crash Course](https://youtu.be/PCWaFLy3VUo) published by [Traversy Media](https://www.traversymedia.com/) on their [youTube Channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) is stored in the folder [`transversy-media-crash-course`](./transversy-media-crash-course) of this repository.
+
+### Lit Official Tutorial
+
+The code written following the [Lit Tutorial](]https://lit.dev/tutorial/) published by the [Lit Project](https://lit.dev/) is stored in the folder [`lit-dev-tutorial`](./lit-dev-tutorial) of this repository.
