@@ -9,6 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
     <script type="module" src="../src/my-element.js"></script>
+    <script type="module" src="../src/second-element.js"></script>
   </head>
   <body>
     <section class="hero is-link">
@@ -31,6 +32,16 @@
               <h2 class="title is-2">Step 1/8</h2>
               <!-- Web Component 1/8 -->
               <my-element></my-element>
+            </article>
+          </div>
+
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <h2 class="title is-2">Step 2/8</h2>
+              <!-- Web Component 2/8 -->
+              <second-element>
+                <p>TODO: Define <code>second-element</code>!</p>
+              </second-element>
             </article>
           </div>
         </div>
