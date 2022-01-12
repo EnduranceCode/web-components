@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lit Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <script type="module" src="../src/my-element.js"></script>
+  </head>
   <body>
-    <h1>Web Dev Server Starter</h1>
+    <section class="hero is-link">
+      <div class="hero-body">
+        <h1 class="title is-1">Lit Official Tutorial</h1>
+        <p class="subtitle">
+          <a href="https://lit.dev/tutorial/" target="_blank">
+            Tutorial provided by the Lit project in the official
+            documentation</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <main class="container is-max-widescreen">
+      <section class="section">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <h2 class="title is-2">Step 1/8</h2>
+              <!-- Web Component 1/8 -->
+              <my-element></my-element>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

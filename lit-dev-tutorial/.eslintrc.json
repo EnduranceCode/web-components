@@ -1,53 +1,37 @@
 {
-    "root": true,
-    "extends": [
-        "eslint:recommended",
-        "plugin:prettier/recommended"
-    ],
-    "parserOptions": {
-        "ecmaVersion": 2020,
-        "ecmaFeatures": {
-            "impliedStrict": true,
-            "classes": true
-        }
-    },
-    "env": {
-        "es6": true,
-        "browser": true,
-        "node": true,
-        "jquery": true
-    },
-    "plugins": [
-        "prettier"
-    ],
-    "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "prettier/prettier": [
-            "error",
-            {
-                "printWidth": 120,
-                "singleQuote": true,
-                "trailingComma": "es5",
-                "bracketSpacing": true,
-                "jsxBracketSameLine": false,
-                "arrowParens": "always",
-                "endOfLine": "auto"
-            }
-        ]
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "classes": true
     }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jquery": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "always",
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }
