@@ -57,3 +57,9 @@ The code written following the tutorial [Web Components Crash Course](https://yo
 ### Lit Official Tutorial
 
 The code written following the [Lit Tutorial](]https://lit.dev/tutorial/) published by the [Lit Project](https://lit.dev/) is stored in the folder [`lit-dev-tutorial`](./lit-dev-tutorial) of this repository.
+
+### LitElement: explorando la librería
+
+The folder [`curso-litelement-libreria`](./curso-litelement-libreria) contains the code developed following the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) created by [David Isaac Sánchez Sandoval](https://www.udemy.com/user/david-isaac-sanchez-sandoval/). This folder contains a folder for each section of the course. Each of those folders contains the projects (one folder for each one) developed following the course's curriculum and their content can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+
+Spanish is the language of this course.
