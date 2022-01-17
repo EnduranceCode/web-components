@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
+    <script type="module" src="./src/button.js"></script>
   </head>
   <body>
     <section class="hero is-link">
@@ -23,7 +24,16 @@
     </section>
 
     <main class="container is-max-widescreen">
-      <section class="section"></section>
+      <section class="section">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <h1 class="title is-2">Button</h1>
+              <button-component></button-component>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
