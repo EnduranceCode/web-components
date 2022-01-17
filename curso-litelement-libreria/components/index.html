@@ -8,7 +8,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
-    <script type="module" src="./src/button.js"></script>
   </head>
   <body>
     <section class="hero is-link">
@@ -24,15 +23,32 @@
     </section>
 
     <main class="container is-max-widescreen">
+      <!-- Button -->
       <section class="section">
         <div class="tile is-ancestor">
           <div class="tile is-parent">
-            <article class="tile is-child box">
+            <article class="tile is-child box has-background-success-light">
               <h1 class="title is-2">Button</h1>
               <button-component></button-component>
             </article>
           </div>
         </div>
+
+        <script type="module" src="./src/button.js"></script>
+      </section>
+
+      <!-- Card -->
+      <section class="section">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <h1 class="title is-2">Card</h1>
+              <card-component></card-component>
+            </article>
+          </div>
+        </div>
+
+        <script type="module" src="./src/card.js"></script>
       </section>
     </main>
   </body>
