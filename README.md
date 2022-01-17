@@ -70,4 +70,4 @@ The folder [`grid`](./curso-litelement-libreria/grid) contains the code develope
 
 #### Components creation
 
-The folder [`grid`](./curso-litelement-libreria/grid) contains the code developed following the **Section 05 - Creación de componentes** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+The folder [`components`](./curso-litelement-libreria/components) contains the code developed following the **Section 05 - Creación de componentes** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
