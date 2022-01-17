@@ -63,3 +63,11 @@ The code written following the [Lit Tutorial](]https://lit.dev/tutorial/) publis
 The folder [`curso-litelement-libreria`](./curso-litelement-libreria) contains the code developed following the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) created by [David Isaac Sánchez Sandoval](https://www.udemy.com/user/david-isaac-sanchez-sandoval/). This folder contains a folder for each section of the course. Each of those folders contains the projects (one folder for each one) developed following the course's curriculum and their content can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
 Spanish is the language of this course.
+
+#### Grid
+
+The folder [`grid`](./curso-litelement-libreria/grid) contains the code developed following the **Section 2: Plantilla Grid** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+
+#### Components creation
+
+The folder [`grid`](./curso-litelement-libreria/grid) contains the code developed following the **Section 05 - Creación de componentes** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.

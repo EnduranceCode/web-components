@@ -1,0 +1,24 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Web Components created following the course LitElement: explorando la librería",
+  "license": "MIT",
+  "author": "EnduranceCode",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open ./ --node-resolve",
+    "start:watch": "web-dev-server --open ./ --node-resolve --watch"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.1.29",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "lit": "^2.1.1"
+  }
+}
