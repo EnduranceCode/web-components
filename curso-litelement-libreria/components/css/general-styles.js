@@ -14,6 +14,7 @@ export const generalStyles = css`
   .grid-column {
     column-gap: 15px;
     display: grid;
+    margin-bottom: 30px;
   }
 
   .grid-column--12 {

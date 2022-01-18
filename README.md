@@ -71,3 +71,5 @@ The folder [`grid`](./curso-litelement-libreria/grid) contains the code develope
 #### Components creation
 
 The folder [`components`](./curso-litelement-libreria/components) contains the code developed following the **Section 05 - Creación de componentes** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+
+The SVG icons used were downloaded from [Icon Finder](https://www.iconfinder.com/) and optimized/minimized with [SVG Optimizer](https://svgoptimizer.com/). The *Home*, *Search* and *Trash* icons were taken from the [Basic UI - Jumpicon (Glyph) icon pack](https://www.iconfinder.com/iconsets/jumpicon-basic-ui-glyph-1) designed by [Ayub Irawan](https://www.iconfinder.com/Ayub_Irawan) and the *Edit* icon was taken from the [Google Material Design Icons](https://www.iconfinder.com/iconsets/google-material-design-icons) pack designed by [Google](https://google.github.io/material-design-icons/).
