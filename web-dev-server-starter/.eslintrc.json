@@ -5,11 +5,12 @@
         "plugin:prettier/recommended"
     ],
     "parserOptions": {
-        "ecmaVersion": 2020,
-        "ecmaFeatures": {
-            "impliedStrict": true,
-            "classes": true
-        }
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "impliedStrict": true,
+        "classes": true
+    }
     },
     "env": {
         "es6": true,
@@ -21,17 +22,10 @@
         "prettier"
     ],
     "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
         "quotes": [
             "error",
-            "single"
+            "single",
+            { "avoidEscape": true }
         ],
         "semi": [
             "error",
@@ -44,7 +38,6 @@
                 "singleQuote": true,
                 "trailingComma": "es5",
                 "bracketSpacing": true,
-                "jsxBracketSameLine": false,
                 "arrowParens": "always",
                 "endOfLine": "auto"
             }
