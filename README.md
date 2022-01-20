@@ -34,6 +34,8 @@ Downloading just the folder [`web-dev-server-starter`](./web-dev-server-starter)
 
     3.3. [Using templates and slots](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots);
 
+4. [Lit Documentation](https://lit.dev/docs/)
+
 ## Code Tutorials
 
 ### LitElement Tutorial
