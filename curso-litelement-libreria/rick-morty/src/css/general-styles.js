@@ -14,7 +14,7 @@ export const generalStyles = css`
   .grid-column {
     column-gap: 15px;
     display: grid;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .grid-column--12 {
@@ -39,5 +39,9 @@ export const generalStyles = css`
 
   .grid-column--1 {
     grid-template-columns: auto;
+  }
+
+  #icon {
+    text-align: center;
   }
 `;
