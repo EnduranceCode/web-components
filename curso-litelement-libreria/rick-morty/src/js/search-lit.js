@@ -30,7 +30,12 @@ class SearchLit extends LitElement {
           placeholder="Name of the character"
           input-type="secondary"
         ></input-component>
-        <select-component id="status" .options="${statusList}" select-type="secondary"></select-component>
+        <select-component
+          id="status"
+          .options="${statusList}"
+          select-placeholder="Status of the character"
+          select-type="secondary"
+        ></select-component>
         <input-component
           id="specie"
           type="text"
@@ -46,8 +51,13 @@ class SearchLit extends LitElement {
       </div>
 
       <div class="grid-column grid-column--4">
-        <select-component id="gender" .options="${genderList}" select-type="secondary"></select-component>
-        <input-component id="page" type="text" placeholder="Set a page" input-type="secondary"></input-component>
+        <select-component
+          id="gender"
+          .options="${genderList}"
+          select-placeholder="Gender of the character"
+          select-type="secondary"
+        ></select-component>
+        <input-component id="page" type="text" placeholder="Page" input-type="secondary"></input-component>
         <button-component button-type="primary">Clear</button-component>
         <icon-componet id="icon" icon-name="search" icon-type="secondary"></icon-componet>
       </div>

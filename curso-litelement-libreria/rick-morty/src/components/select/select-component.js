@@ -6,19 +6,21 @@ class SelectComponent extends LitElement {
 
   static properties = {
     options: {},
+    selectPlaceholder: { attribute: 'select-placeholder' },
     selectType: { attribute: 'select-type' },
   };
 
   constructor() {
     super();
     this.options = [];
+    this.selectPlaceholder = '-- select an option --';
     this.selectType = '';
   }
 
   render() {
     return html`
-      <select @input="${this.readSelect}" @change="${this.requiredSelect}" class="${this.getSelectClass()}">
-        <option disabled selected>-- select an option --</option>
+      <select class="${this.getSelectClass()}">
+        <option disabled selected>${this.selectPlaceholder}</option>
         ${this.options.map((option) => {
           return html`<option value="${option.value}">${option.text}</option>`;
         })}
