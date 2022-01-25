@@ -24,6 +24,7 @@ class InputComponent extends LitElement {
         .type="${this.type}"
         .placeholder="${this.placeholder}"
         .value="${this.value}"
+        @change="${this.handleInputValueChange}"
         class="${this.getInputClass()}"
       />
     `;
@@ -41,6 +42,10 @@ class InputComponent extends LitElement {
       default:
         return 'input--default';
     }
+  }
+
+  handleInputValueChange(event) {
+    this.dispatchEvent(new CustomEvent('changed-value', { detail: { id: this.id, value: event.target.value } }));
   }
 }
 

@@ -19,7 +19,7 @@ class SelectComponent extends LitElement {
 
   render() {
     return html`
-      <select class="${this.getSelectClass()}">
+      <select class="${this.getSelectClass()}" @change="${this.handleInputValueChange}">
         <option disabled selected>${this.selectPlaceholder}</option>
         ${this.options.map((option) => {
           return html`<option value="${option.value}">${option.text}</option>`;
@@ -40,6 +40,10 @@ class SelectComponent extends LitElement {
       default:
         return 'select--default';
     }
+  }
+
+  handleInputValueChange(event) {
+    this.dispatchEvent(new CustomEvent('changed-value', { detail: { id: this.id, value: event.target.value } }));
   }
 }
 
