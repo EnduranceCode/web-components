@@ -2,10 +2,11 @@ import { LitElement, html } from 'lit';
 import { generalStyles } from '../css/general-styles';
 import { statusList, genderList } from '../parameters/parameters-lists';
 
-import '../components/input/input-component';
-import '../components/select/select-component';
 import '../components/button/button-component';
+import '../components/input/input-component';
 import '../components/icon/icon-component';
+import '../components/results/results-component';
+import '../components/select/select-component';
 
 class SearchLit extends LitElement {
   static styles = [generalStyles];
@@ -90,11 +91,12 @@ class SearchLit extends LitElement {
         ></icon-componet>
       </div>
 
-      <div><p>Resultado</p></div>
+      <results-component .data="${this.searchResults}"></results-component>
     `;
   }
 
   updateSearchParameters(event) {
+    console.log(event);
     this.searchParameters[event.detail.id] = event.detail.value;
   }
 
@@ -114,8 +116,8 @@ class SearchLit extends LitElement {
       .then((response) => {
         return response.json();
       })
-      .then((result) => {
-        console.log(result);
+      .then((data) => {
+        this.searchResults = data;
       });
   }
 }

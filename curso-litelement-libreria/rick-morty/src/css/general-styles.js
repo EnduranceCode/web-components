@@ -12,7 +12,7 @@ export const generalStyles = css`
   }
 
   .grid-column {
-    column-gap: 15px;
+    column-gap: 20px;
     display: grid;
     margin-bottom: 10px;
   }
