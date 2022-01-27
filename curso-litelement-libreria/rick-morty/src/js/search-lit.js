@@ -96,7 +96,6 @@ class SearchLit extends LitElement {
   }
 
   updateSearchParameters(event) {
-    console.log(event);
     this.searchParameters[event.detail.id] = event.detail.value;
   }
 
@@ -114,7 +113,13 @@ class SearchLit extends LitElement {
 
     fetch(endpoint)
       .then((response) => {
-        return response.json();
+        if (response.status == 200) {
+          return response.json();
+        } else if (response.status == 404) {
+          return { error: 'No results found for this search criteria' };
+        } else {
+          return { error: response.statusText };
+        }
       })
       .then((data) => {
         this.searchResults = data;
