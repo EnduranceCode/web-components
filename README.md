@@ -81,3 +81,9 @@ The SVG icons used were downloaded from [Icon Finder](https://www.iconfinder.com
 The folder [`rick-morty`](./curso-litelement-libreria/rick-morty) contains the code developed following the **Section 6 - Buscador Rick and Morty** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
 This project uses [The Rick and Morty API](https://rickandmortyapi.com/) to develop a web app that allows searching the characteres of the show [Rick and Morty](https://www.adultswim.com/videos/rick-and-morty).
+
+#### MetaWeather
+
+The folder [`meataweather`](./curso-litelement-libreria/metaweather) contains the code developed following the **Section 7 - Aplicación para clima** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
+
+This project uses [MetaWeather API](https://www.metaweather.com/api/) to develop a web app that displays the weather predictions for a given city.
