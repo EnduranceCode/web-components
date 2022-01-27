@@ -82,7 +82,7 @@ class SearchLit extends LitElement {
           input-type="secondary"
           @changed-value="${this.updateSearchParameters}"
         ></input-component>
-        <button-component button-type="primary">Clear</button-component>
+        <button-component button-type="primary" @click="${this.cleanSearch}">Clear form</button-component>
         <icon-componet
           id="icon"
           icon-name="search"
@@ -119,6 +119,14 @@ class SearchLit extends LitElement {
       .then((data) => {
         this.searchResults = data;
       });
+  }
+
+  cleanSearch() {
+    for (const key in this.searchParameters) {
+      this.searchParameters[key] = '';
+    }
+    this.searchResults = {};
+    this.dispatchEvent(new CustomEvent('reset-component', { bubbles: true }));
   }
 }
 

@@ -17,6 +17,16 @@ class SelectComponent extends LitElement {
     this.selectType = '';
   }
 
+  connectedCallback() {
+    super.connectedCallback();
+    document.addEventListener('reset-component', () => this.resetComponent());
+  }
+
+  disconnectedCallback() {
+    document.removeEventListener('reset-component', () => this.resetComponent());
+    super.disconnectedCallback();
+  }
+
   render() {
     return html`
       <select class="${this.getSelectClass()}" @change="${this.handleInputValueChange}">
@@ -44,6 +54,10 @@ class SelectComponent extends LitElement {
 
   handleInputValueChange(event) {
     this.dispatchEvent(new CustomEvent('changed-value', { detail: { id: this.id, value: event.target.value } }));
+  }
+
+  resetComponent() {
+    this.shadowRoot.querySelector('select').selectedIndex = 0;
   }
 }
 
