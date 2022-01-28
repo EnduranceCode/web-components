@@ -25,11 +25,16 @@ class ButtonComponent extends LitElement {
     switch (this.buttonType) {
       case 'primary':
         return 'button button--primary';
-      case 'secondary':
-        return 'button button--secondary';
+      case 'link':
+        return 'button button--link';
+      case 'info':
+        return 'button button--info';
+      case 'success':
+        return 'button button--success';
       case 'warning':
         return 'button button--warning';
-      case 'default':
+      case 'danger':
+        return 'button button--danger';
       default:
         return 'button button--default';
     }

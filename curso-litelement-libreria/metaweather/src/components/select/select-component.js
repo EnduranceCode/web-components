@@ -42,11 +42,16 @@ class SelectComponent extends LitElement {
     switch (this.selectType) {
       case 'primary':
         return 'select--primary';
-      case 'secondary':
-        return 'select--secondary';
+      case 'link':
+        return 'select--link';
+      case 'info':
+        return 'select--info';
+      case 'success':
+        return 'select--success';
       case 'warning':
         return 'select--warning';
-      case 'default':
+      case 'danger':
+        return 'select--danger';
       default:
         return 'select--default';
     }

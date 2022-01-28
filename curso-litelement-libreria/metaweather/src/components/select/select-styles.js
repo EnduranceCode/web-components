@@ -2,50 +2,65 @@ import { css } from 'lit';
 
 export const selectStyles = css`
   :host {
-    --default-color: #f3efee;
-    --primary-color: #9ebe1d;
-    --secondary-color: #73d0fb;
-    --warning-color: #f71906;
-    --focus-color: #cd5c5c;
+    --primary-color: #00d1b2;
+    --link-color: #485fc7;
+    --info-color: #3e8ed0;
+    --success-color: #48c78e;
+    --warning-color: #ffe08a;
+    --danger-color: #f14668;
+    --grey-dark: #4a4a4a;
+    --grey: #7a7a7a;
+    --grey-light: #b5b5b5;
+    --grey-lighter: #dbdbdb;
   }
 
   select {
-    border: none;
-    border-bottom: 3px solid #000;
+    border-radius: 5px;
+    border-width: 1px;
     box-sizing: border-box;
     height: 40px;
-    margin-bottom: 10px;
     padding: 10px 10px;
     width: 100%;
   }
 
   select:focus {
-    border: none;
-    border-bottom: 3px solid var(--focus-color);
+    border-color: var(--primary-color);
     outline: none;
   }
 
   select:disabled,
   select[disabled] {
-    background-color: #cccccc;
-    border-bottom: 3px solid #f6f6f6;
-    color: #f6f6f6;
+    background-color: var(--grey-lighter);
+    border-color: var(--grey);
+    color: var(--grey-light);
     pointer-events: none;
   }
 
   .select--default {
-    background-color: var(--default-color);
+    border-color: var(--grey-dark);
   }
 
   .select--primary {
-    background-color: var(--primary-color);
+    border-color: var(--primary-color);
   }
 
-  .select--secondary {
-    background-color: var(--secondary-color);
+  .select--link {
+    border-color: var(--link-color);
+  }
+
+  .select--info {
+    border-color: var(--info-color);
+  }
+
+  .select--success {
+    border-color: var(--success-color);
   }
 
   .select--warning {
-    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+  }
+
+  .select--danger {
+    border-color: var(--danger-color);
   }
 `;
