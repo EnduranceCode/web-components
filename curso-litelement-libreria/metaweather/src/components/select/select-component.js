@@ -1,18 +1,19 @@
 import { LitElement, html } from 'lit';
 import { selectStyles } from '../select/select-styles';
+import { locationOptions } from './select-options-data';
 
 class SelectComponent extends LitElement {
   static styles = [selectStyles];
 
   static properties = {
-    options: {},
+    continent: {},
     selectPlaceholder: { attribute: 'select-placeholder' },
     selectType: { attribute: 'select-type' },
   };
 
   constructor() {
     super();
-    this.options = [];
+    this.continent = '';
     this.selectPlaceholder = '-- select an option --';
     this.selectType = '';
   }
@@ -28,14 +29,26 @@ class SelectComponent extends LitElement {
   }
 
   render() {
+    const options = this.getSelectOptions(this.continent);
     return html`
       <select class="${this.getSelectClass()}" @change="${this.handleInputValueChange}">
         <option disabled selected>${this.selectPlaceholder}</option>
-        ${this.options.map((option) => {
+        ${options.map((option) => {
           return html`<option value="${option.value}">${option.text}</option>`;
         })}
       </select>
     `;
+  }
+
+  getSelectOptions(continent) {
+    let options = [];
+    for (const key in locationOptions) {
+      if (key == continent) {
+        options = locationOptions[key];
+      }
+    }
+
+    return options;
   }
 
   getSelectClass() {
