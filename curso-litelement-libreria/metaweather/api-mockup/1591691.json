@@ -1,0 +1,159 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5542973702930432,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "NW",
+      "created": "2022-02-01T15:06:10.450573Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 20.01,
+      "max_temp": 28.59,
+      "the_temp": 30.71,
+      "wind_speed": 6.990404589649779,
+      "wind_direction": 316.31335923504975,
+      "air_pressure": 1008.0,
+      "humidity": 54,
+      "visibility": 15.6666318698799,
+      "predictability": 68
+    },
+    {
+      "id": 6634944576094208,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "NNW",
+      "created": "2022-02-01T15:06:13.455048Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 19.1,
+      "max_temp": 23.235,
+      "the_temp": 23.085,
+      "wind_speed": 11.32033129818394,
+      "wind_direction": 328.83841463464705,
+      "air_pressure": 1008.0,
+      "humidity": 77,
+      "visibility": 10.520124970174182,
+      "predictability": 73
+    },
+    {
+      "id": 4999649770340352,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T15:06:16.397201Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 17.09,
+      "max_temp": 20.655,
+      "the_temp": 20.855,
+      "wind_speed": 9.111414414727326,
+      "wind_direction": 224.11942029409656,
+      "air_pressure": 1015.0,
+      "humidity": 77,
+      "visibility": 7.710595124473077,
+      "predictability": 77
+    },
+    {
+      "id": 5055453584162816,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "SSE",
+      "created": "2022-02-01T15:06:19.388098Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 16.685000000000002,
+      "max_temp": 21.155,
+      "the_temp": 21.240000000000002,
+      "wind_speed": 14.67611298037859,
+      "wind_direction": 154.50209787893988,
+      "air_pressure": 1020.5,
+      "humidity": 53,
+      "visibility": 13.94698709536308,
+      "predictability": 70
+    },
+    {
+      "id": 5630006920216576,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "SSE",
+      "created": "2022-02-01T15:06:22.424433Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 16.29,
+      "max_temp": 26.88,
+      "the_temp": 28.064999999999998,
+      "wind_speed": 9.353063898183938,
+      "wind_direction": 147.01659713375932,
+      "air_pressure": 1015.5,
+      "humidity": 48,
+      "visibility": 15.623757257615525,
+      "predictability": 68
+    },
+    {
+      "id": 6555777188757504,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "SSE",
+      "created": "2022-02-01T15:06:25.439931Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 18.5,
+      "max_temp": 27.29,
+      "the_temp": 27.94,
+      "wind_speed": 4.258613298337708,
+      "wind_direction": 151.5,
+      "air_pressure": 1012.0,
+      "humidity": 59,
+      "visibility": 9.999726596675416,
+      "predictability": 68
+    }
+  ],
+  "time": "2022-02-01T17:20:39.270992+02:00",
+  "sun_rise": "2022-02-01T06:07:43.811513+02:00",
+  "sun_set": "2022-02-01T19:51:31.593661+02:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "South Africa",
+    "location_type": "Country",
+    "woeid": 23424942,
+    "latt_long": "-28.479330,24.679930"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Cape Town",
+  "location_type": "City",
+  "woeid": 1591691,
+  "latt_long": "-33.919060,18.421961",
+  "timezone": "Africa/Johannesburg"
+}

@@ -1,0 +1,159 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5505589670051840,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T13:35:16.360413Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 23.0,
+      "max_temp": 31.835,
+      "the_temp": 29.435000000000002,
+      "wind_speed": 2.3384781258172276,
+      "wind_direction": 227.664738050777,
+      "air_pressure": 1010.0,
+      "humidity": 74,
+      "visibility": 12.329247196373181,
+      "predictability": 73
+    },
+    {
+      "id": 4707500390612992,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "WSW",
+      "created": "2022-02-01T13:35:20.744129Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 22.44,
+      "max_temp": 31.66,
+      "the_temp": 29.56,
+      "wind_speed": 3.819823189803547,
+      "wind_direction": 249.84907797421056,
+      "air_pressure": 1009.5,
+      "humidity": 72,
+      "visibility": 9.48833810546409,
+      "predictability": 77
+    },
+    {
+      "id": 6258911599394816,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "W",
+      "created": "2022-02-01T13:35:22.456013Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 22.625,
+      "max_temp": 29.16,
+      "the_temp": 28.15,
+      "wind_speed": 2.947478403913147,
+      "wind_direction": 275.56367218927903,
+      "air_pressure": 1011.5,
+      "humidity": 75,
+      "visibility": 10.806887775391711,
+      "predictability": 77
+    },
+    {
+      "id": 5100768735526912,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "WSW",
+      "created": "2022-02-01T13:35:25.440308Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 22.11,
+      "max_temp": 27.884999999999998,
+      "the_temp": 27.535,
+      "wind_speed": 2.675812921103423,
+      "wind_direction": 254.34430155479134,
+      "air_pressure": 1011.5,
+      "humidity": 77,
+      "visibility": 11.664069335083115,
+      "predictability": 77
+    },
+    {
+      "id": 5354520746917888,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T13:35:28.541490Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 21.485,
+      "max_temp": 32.275,
+      "the_temp": 30.54,
+      "wind_speed": 2.9208812041597074,
+      "wind_direction": 226.6490196577528,
+      "air_pressure": 1011.0,
+      "humidity": 66,
+      "visibility": 11.33909220154299,
+      "predictability": 75
+    },
+    {
+      "id": 6385646286405632,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T13:35:31.379699Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 22.465,
+      "max_temp": 30.4,
+      "the_temp": 27.38,
+      "wind_speed": 2.192004294917681,
+      "wind_direction": 234.0,
+      "air_pressure": 1011.0,
+      "humidity": 75,
+      "visibility": 9.999726596675416,
+      "predictability": 77
+    }
+  ],
+  "time": "2022-02-01T16:21:08.726877+01:00",
+  "sun_rise": "2022-02-01T06:03:31.035425+01:00",
+  "sun_set": "2022-02-01T18:21:10.625732+01:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Democratic Republic of the Congo",
+    "location_type": "Country",
+    "woeid": 23424780,
+    "latt_long": "-4.034790,21.756269"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Kinshasa",
+  "location_type": "City",
+  "woeid": 1290062,
+  "latt_long": "-4.316420,15.298340",
+  "timezone": "Africa/Kinshasa"
+}

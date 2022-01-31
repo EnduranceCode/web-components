@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5619321712672768,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SE",
+      "created": "2022-02-01T13:50:07.648894Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 11.879999999999999,
+      "max_temp": 22.939999999999998,
+      "the_temp": 21.32,
+      "wind_speed": 5.456393001911504,
+      "wind_direction": 130.67230796817603,
+      "air_pressure": 1012.5,
+      "humidity": 31,
+      "visibility": 13.28709088920703,
+      "predictability": 71
+    },
+    {
+      "id": 4559064072716288,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "ESE",
+      "created": "2022-02-01T13:50:11.646318Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 9.935,
+      "max_temp": 23.634999999999998,
+      "the_temp": 21.34,
+      "wind_speed": 5.9898381363848445,
+      "wind_direction": 122.64658484124776,
+      "air_pressure": 1014.0,
+      "humidity": 38,
+      "visibility": 13.1917104111986,
+      "predictability": 71
+    },
+    {
+      "id": 6649341306470400,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "ESE",
+      "created": "2022-02-01T13:50:13.831668Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 10.66,
+      "max_temp": 23.634999999999998,
+      "the_temp": 21.515,
+      "wind_speed": 5.675432448707547,
+      "wind_direction": 114.16536978674293,
+      "air_pressure": 1015.0,
+      "humidity": 40,
+      "visibility": 12.726924759405074,
+      "predictability": 71
+    },
+    {
+      "id": 6017567891128320,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "ESE",
+      "created": "2022-02-01T13:50:16.750814Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 9.615,
+      "max_temp": 25.29,
+      "the_temp": 22.275,
+      "wind_speed": 4.870903133611708,
+      "wind_direction": 121.98531563929522,
+      "air_pressure": 1013.0,
+      "humidity": 31,
+      "visibility": 13.240488049789231,
+      "predictability": 71
+    },
+    {
+      "id": 6033802565517312,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SE",
+      "created": "2022-02-01T13:50:19.549227Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 10.84,
+      "max_temp": 23.725,
+      "the_temp": 21.935,
+      "wind_speed": 5.324294317314881,
+      "wind_direction": 129.6650091359808,
+      "air_pressure": 1013.5,
+      "humidity": 25,
+      "visibility": 13.300450369840133,
+      "predictability": 71
+    },
+    {
+      "id": 5369539299639296,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SE",
+      "created": "2022-02-01T13:50:23.341503Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 9.33,
+      "max_temp": 24.57,
+      "the_temp": 21.28,
+      "wind_speed": 4.414357551896922,
+      "wind_direction": 141.0,
+      "air_pressure": 1013.0,
+      "humidity": 37,
+      "visibility": 9.999726596675416,
+      "predictability": 73
+    }
+  ],
+  "time": "2022-02-01T18:20:07.210219+03:00",
+  "sun_rise": "2022-02-01T06:46:13.142163+03:00",
+  "sun_set": "2022-02-01T18:31:00.960298+03:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Ethiopia",
+    "location_type": "Country",
+    "woeid": 23424808,
+    "latt_long": "9.147300,40.493050"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Addis Ababa",
+  "location_type": "City",
+  "woeid": 1313090,
+  "latt_long": "9.022730,38.746792",
+  "timezone": "Africa/Addis_Ababa"
+}

@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5069792693190656,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T13:48:19.680236Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 16.205,
+      "max_temp": 24.905,
+      "the_temp": 24.275,
+      "wind_speed": 3.6644392110607384,
+      "wind_direction": 54.990999885706586,
+      "air_pressure": 1014.5,
+      "humidity": 60,
+      "visibility": 13.649971665473632,
+      "predictability": 75
+    },
+    {
+      "id": 5143414514384896,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T13:48:22.373790Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 15.825,
+      "max_temp": 26.58,
+      "the_temp": 25.165,
+      "wind_speed": 5.803659967037832,
+      "wind_direction": 51.812817902042035,
+      "air_pressure": 1012.0,
+      "humidity": 56,
+      "visibility": 13.34332498210451,
+      "predictability": 75
+    },
+    {
+      "id": 5239343305195520,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T13:48:26.848636Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 15.84,
+      "max_temp": 27.28,
+      "the_temp": 25.335,
+      "wind_speed": 6.489722581640552,
+      "wind_direction": 57.49757083350805,
+      "air_pressure": 1013.0,
+      "humidity": 54,
+      "visibility": 13.452064940746043,
+      "predictability": 73
+    },
+    {
+      "id": 5945193665658880,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T13:48:28.450222Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 15.219999999999999,
+      "max_temp": 28.73,
+      "the_temp": 26.25,
+      "wind_speed": 4.698294902311833,
+      "wind_direction": 53.00000000000001,
+      "air_pressure": 1011.5,
+      "humidity": 48,
+      "visibility": 13.453929054322755,
+      "predictability": 75
+    },
+    {
+      "id": 6299042867838976,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "N",
+      "created": "2022-02-01T13:48:31.549414Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 15.809999999999999,
+      "max_temp": 27.285,
+      "the_temp": 25.965,
+      "wind_speed": 3.1382094586574407,
+      "wind_direction": 5.612962255514916,
+      "air_pressure": 1011.0,
+      "humidity": 50,
+      "visibility": 12.869529448023542,
+      "predictability": 75
+    },
+    {
+      "id": 5331299192537088,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "W",
+      "created": "2022-02-01T13:48:34.475693Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 15.344999999999999,
+      "max_temp": 26.130000000000003,
+      "the_temp": 25.05,
+      "wind_speed": 3.072980195657361,
+      "wind_direction": 266.5,
+      "air_pressure": 1012.0,
+      "humidity": 61,
+      "visibility": 9.972386264216972,
+      "predictability": 77
+    }
+  ],
+  "time": "2022-02-01T18:21:33.099089+03:00",
+  "sun_rise": "2022-02-01T06:41:15.289149+03:00",
+  "sun_set": "2022-02-01T18:51:24.699985+03:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Kenya",
+    "location_type": "Country",
+    "woeid": 23424863,
+    "latt_long": "-0.024350,37.903950"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Nairobi",
+  "location_type": "City",
+  "woeid": 1528488,
+  "latt_long": "-1.270200,36.804138",
+  "timezone": "Africa/Nairobi"
+}

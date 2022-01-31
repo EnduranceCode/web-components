@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5761132003328000,
+      "weather_state_name": "Sleet",
+      "weather_state_abbr": "sl",
+      "wind_direction_compass": "WSW",
+      "created": "2022-02-01T15:03:28.643511Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 0.685,
+      "max_temp": 4.115,
+      "the_temp": 1.92,
+      "wind_speed": 8.069987050001325,
+      "wind_direction": 251.49220004016826,
+      "air_pressure": 1027.0,
+      "humidity": 82,
+      "visibility": 8.649797681539807,
+      "predictability": 85
+    },
+    {
+      "id": 5198182049906688,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "WSW",
+      "created": "2022-02-01T15:03:32.158287Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 3.625,
+      "max_temp": 6.43,
+      "the_temp": 5.195,
+      "wind_speed": 7.605407829730375,
+      "wind_direction": 245.49992382679238,
+      "air_pressure": 1024.0,
+      "humidity": 92,
+      "visibility": 6.131690924998011,
+      "predictability": 77
+    },
+    {
+      "id": 4926576136290304,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T15:03:34.662089Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 2.6399999999999997,
+      "max_temp": 8.64,
+      "the_temp": 7.779999999999999,
+      "wind_speed": 2.3428441204565336,
+      "wind_direction": 198.84788711138998,
+      "air_pressure": 1020.0,
+      "humidity": 85,
+      "visibility": 12.913336117076273,
+      "predictability": 73
+    },
+    {
+      "id": 6478044488269824,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "WSW",
+      "created": "2022-02-01T15:03:37.445268Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 1.5,
+      "max_temp": 7.625,
+      "the_temp": 6.865,
+      "wind_speed": 4.5692805319785785,
+      "wind_direction": 238.45379616547206,
+      "air_pressure": 1021.0,
+      "humidity": 79,
+      "visibility": 12.69523482860097,
+      "predictability": 73
+    },
+    {
+      "id": 6063195979513856,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T15:03:40.532066Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 0.61,
+      "max_temp": 7.140000000000001,
+      "the_temp": 5.9399999999999995,
+      "wind_speed": 3.4653003517564094,
+      "wind_direction": 220.76206835073896,
+      "air_pressure": 1029.5,
+      "humidity": 77,
+      "visibility": 12.122330589358148,
+      "predictability": 75
+    },
+    {
+      "id": 5489526089711616,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T15:03:43.453253Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": -0.44999999999999996,
+      "max_temp": 6.965,
+      "the_temp": 5.45,
+      "wind_speed": 2.4517541557305336,
+      "wind_direction": 178.5,
+      "air_pressure": 1034.0,
+      "humidity": 73,
+      "visibility": 9.999726596675416,
+      "predictability": 70
+    }
+  ],
+  "time": "2022-02-01T16:19:25.967494+01:00",
+  "sun_rise": "2022-02-01T07:51:58.824514+01:00",
+  "sun_set": "2022-02-01T17:27:24.505722+01:00",
+  "timezone_name": "BMT",
+  "parent": {
+    "title": "Switzerland",
+    "location_type": "Country",
+    "woeid": 23424957,
+    "latt_long": "46.813202,8.223950"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Zurich",
+  "location_type": "City",
+  "woeid": 784794,
+  "latt_long": "47.377060,8.539550",
+  "timezone": "Europe/Zurich"
+}

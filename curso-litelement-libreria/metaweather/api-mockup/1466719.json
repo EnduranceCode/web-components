@@ -1,0 +1,159 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 6483760821305344,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T14:58:31.460469Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 17.35,
+      "max_temp": 21.53,
+      "the_temp": 19.34,
+      "wind_speed": 4.955321124632148,
+      "wind_direction": 192.0,
+      "air_pressure": 1006.0,
+      "humidity": 87,
+      "visibility": 9.463483257774596,
+      "predictability": 77
+    },
+    {
+      "id": 6156923071102976,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T14:58:34.433977Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 17.135,
+      "max_temp": 26.815,
+      "the_temp": 24.88,
+      "wind_speed": 4.404542869641295,
+      "wind_direction": 217.0,
+      "air_pressure": 1009.0,
+      "humidity": 61,
+      "visibility": 9.999726596675416,
+      "predictability": 77
+    },
+    {
+      "id": 6389886090215424,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T14:58:37.877396Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 16.060000000000002,
+      "max_temp": 28.345,
+      "the_temp": 27.18,
+      "wind_speed": 4.550367454068242,
+      "wind_direction": 169.0,
+      "air_pressure": 1010.0,
+      "humidity": 41,
+      "visibility": 9.999726596675416,
+      "predictability": 70
+    },
+    {
+      "id": 4982511206662144,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "ESE",
+      "created": "2022-02-01T14:58:40.452775Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 17.255,
+      "max_temp": 28.245,
+      "the_temp": 27.28,
+      "wind_speed": 8.227146265807683,
+      "wind_direction": 116.5,
+      "air_pressure": 1012.0,
+      "humidity": 40,
+      "visibility": 9.999726596675416,
+      "predictability": 70
+    },
+    {
+      "id": 5439182496333824,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "ESE",
+      "created": "2022-02-01T14:58:43.452113Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 17.060000000000002,
+      "max_temp": 29.095,
+      "the_temp": 28.02,
+      "wind_speed": 7.502918356796309,
+      "wind_direction": 108.5,
+      "air_pressure": 1012.0,
+      "humidity": 32,
+      "visibility": 9.999726596675416,
+      "predictability": 68
+    },
+    {
+      "id": 6026190541291520,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "SE",
+      "created": "2022-02-01T14:58:46.380408Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 18.02,
+      "max_temp": 29.825000000000003,
+      "the_temp": 28.73,
+      "wind_speed": 5.818829436093216,
+      "wind_direction": 127.50000000000001,
+      "air_pressure": 1012.0,
+      "humidity": 26,
+      "visibility": 9.999726596675416,
+      "predictability": 68
+    }
+  ],
+  "time": "2022-02-01T17:23:01.961685+02:00",
+  "sun_rise": "2022-02-01T06:31:59.347727+02:00",
+  "sun_set": "2022-02-01T19:38:10.580529+02:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Namibia",
+    "location_type": "Country",
+    "woeid": 23424987,
+    "latt_long": "-22.96566,18.48617"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Windhoek",
+  "location_type": "City",
+  "woeid": 1466719,
+  "latt_long": "-22.559561,17.08445",
+  "timezone": "Africa/Windhoek"
+}

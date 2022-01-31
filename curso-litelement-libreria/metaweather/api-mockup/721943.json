@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5462064840572928,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T13:20:26.053253Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 1.9300000000000002,
+      "max_temp": 14.175,
+      "the_temp": 12.245,
+      "wind_speed": 11.132658327696918,
+      "wind_direction": 63.0,
+      "air_pressure": 1018.0,
+      "humidity": 49,
+      "visibility": 15.658864729976935,
+      "predictability": 68
+    },
+    {
+      "id": 4821299240108032,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T13:20:28.455494Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 3.4099999999999997,
+      "max_temp": 14.055,
+      "the_temp": 12.445,
+      "wind_speed": 4.951295428190036,
+      "wind_direction": 64.99999999999999,
+      "air_pressure": 1018.5,
+      "humidity": 65,
+      "visibility": 14.747313190964766,
+      "predictability": 71
+    },
+    {
+      "id": 6315627749834752,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SE",
+      "created": "2022-02-01T13:20:31.370999Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 5.640000000000001,
+      "max_temp": 17.785,
+      "the_temp": 16.78,
+      "wind_speed": 4.725646850494446,
+      "wind_direction": 127.03913535972664,
+      "air_pressure": 1020.5,
+      "humidity": 66,
+      "visibility": 14.409597947983775,
+      "predictability": 73
+    },
+    {
+      "id": 6490752088539136,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SSE",
+      "created": "2022-02-01T13:20:34.550128Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 6.275,
+      "max_temp": 14.844999999999999,
+      "the_temp": 11.489999999999998,
+      "wind_speed": 5.365246104899388,
+      "wind_direction": 151.85516690737563,
+      "air_pressure": 1020.0,
+      "humidity": 80,
+      "visibility": 12.868597391235186,
+      "predictability": 73
+    },
+    {
+      "id": 4979455471648768,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T13:20:37.434621Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 3.7600000000000002,
+      "max_temp": 14.440000000000001,
+      "the_temp": 12.52,
+      "wind_speed": 4.064144355022668,
+      "wind_direction": 23.02671833072593,
+      "air_pressure": 1022.0,
+      "humidity": 67,
+      "visibility": 12.374607293406505,
+      "predictability": 70
+    },
+    {
+      "id": 5326345115533312,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T13:20:40.470495Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 5.58,
+      "max_temp": 12.79,
+      "the_temp": 5.62,
+      "wind_speed": 3.828434144595562,
+      "wind_direction": 54.00000000000001,
+      "air_pressure": 1022.0,
+      "humidity": 81,
+      "visibility": 9.999726596675416,
+      "predictability": 73
+    }
+  ],
+  "time": "2022-02-01T16:18:57.163765+01:00",
+  "sun_rise": "2022-02-01T07:22:45.382312+01:00",
+  "sun_set": "2022-02-01T17:24:53.639331+01:00",
+  "timezone_name": "RMT",
+  "parent": {
+    "title": "Italy",
+    "location_type": "Country",
+    "woeid": 23424853,
+    "latt_long": "42.503819,12.573470"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Rome",
+  "location_type": "City",
+  "woeid": 721943,
+  "latt_long": "41.903111,12.495760",
+  "timezone": "Europe/Rome"
+}

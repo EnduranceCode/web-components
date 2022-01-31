@@ -86,4 +86,4 @@ This project uses [The Rick and Morty API](https://rickandmortyapi.com/) to deve
 
 The folder [`meataweather`](./curso-litelement-libreria/metaweather) contains the code developed following the **Section 7 - Aplicación para clima** of the course [LitElement: explorando la librería](https://www.udemy.com/course/litelement-explorando-la-libreria/) and it can be imported to an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of choice.
 
-This project uses [MetaWeather API](https://www.metaweather.com/api/) to develop a web app that displays the weather predictions for a given city.
+This project intended to use the [MetaWeather API](https://www.metaweather.com/api/) to develop a web app that displays the weather predictions for a given city but it [doesn't have open CORS](https://github.com/public-apis/public-apis/issues/644). Therefore, this the folder [api-mockup](./curso-litelement-libreria/metaweather/api-mockup) contains a set of JSON files that will be used to mockup the api.

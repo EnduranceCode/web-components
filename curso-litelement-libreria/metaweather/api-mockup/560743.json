@@ -1,0 +1,159 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 6512351948832768,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T14:19:49.736828Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 8.15,
+      "max_temp": 17.485,
+      "the_temp": 15.185,
+      "wind_speed": 5.923110622429014,
+      "wind_direction": 58.15736558849491,
+      "air_pressure": 1028.5,
+      "humidity": 49,
+      "visibility": 14.998036467032529,
+      "predictability": 68
+    },
+    {
+      "id": 5882286328250368,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T14:19:52.754839Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 7.99,
+      "max_temp": 16.905,
+      "the_temp": 15.524999999999999,
+      "wind_speed": 3.423448318515868,
+      "wind_direction": 76.56827173695726,
+      "air_pressure": 1027.5,
+      "humidity": 56,
+      "visibility": 14.35926688141255,
+      "predictability": 68
+    },
+    {
+      "id": 5319336374829056,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "N",
+      "created": "2022-02-01T14:19:55.770737Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 10.215,
+      "max_temp": 17.2,
+      "the_temp": 15.395,
+      "wind_speed": 2.368171990450436,
+      "wind_direction": 356.83371654683623,
+      "air_pressure": 1025.0,
+      "humidity": 72,
+      "visibility": 12.430530700707866,
+      "predictability": 71
+    },
+    {
+      "id": 5354013227745280,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "N",
+      "created": "2022-02-01T14:19:58.478332Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 10.32,
+      "max_temp": 16.17,
+      "the_temp": 15.32,
+      "wind_speed": 4.412252460136801,
+      "wind_direction": 356.5,
+      "air_pressure": 1026.0,
+      "humidity": 72,
+      "visibility": 11.55532937644158,
+      "predictability": 71
+    },
+    {
+      "id": 4995295613026304,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T14:20:01.462754Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 9.719999999999999,
+      "max_temp": 15.72,
+      "the_temp": 15.405000000000001,
+      "wind_speed": 3.992046427111005,
+      "wind_direction": 13.858380437482436,
+      "air_pressure": 1024.5,
+      "humidity": 69,
+      "visibility": 13.685389823431162,
+      "predictability": 71
+    },
+    {
+      "id": 5474391665147904,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T14:20:04.733247Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 9.085,
+      "max_temp": 17.555,
+      "the_temp": 14.03,
+      "wind_speed": 4.665889405869721,
+      "wind_direction": 43.0,
+      "air_pressure": 1025.0,
+      "humidity": 64,
+      "visibility": 9.999726596675416,
+      "predictability": 71
+    }
+  ],
+  "time": "2022-02-01T15:33:53.863736Z",
+  "sun_rise": "2022-02-01T07:42:34.961091Z",
+  "sun_set": "2022-02-01T17:58:12.474955Z",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Portugal",
+    "location_type": "Country",
+    "woeid": 23424925,
+    "latt_long": "39.557919,-7.844810"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Lisbon",
+  "location_type": "City",
+  "woeid": 742676,
+  "latt_long": "38.725670,-9.150370",
+  "timezone": "Europe/Lisbon"
+}

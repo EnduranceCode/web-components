@@ -1,0 +1,159 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 6621158142115840,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "NE",
+      "created": "2022-02-01T13:46:58.532051Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 12.265,
+      "max_temp": 20.505000000000003,
+      "the_temp": 18.15,
+      "wind_speed": 6.710046728343805,
+      "wind_direction": 45.33145222483384,
+      "air_pressure": 1026.5,
+      "humidity": 54,
+      "visibility": 14.540707269545852,
+      "predictability": 68
+    },
+    {
+      "id": 5752327588806656,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "ENE",
+      "created": "2022-02-01T13:47:01.845095Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 10.42,
+      "max_temp": 19.79,
+      "the_temp": 18.975,
+      "wind_speed": 4.044605929391023,
+      "wind_direction": 63.49999999999999,
+      "air_pressure": 1024.0,
+      "humidity": 48,
+      "visibility": 14.455268730613218,
+      "predictability": 70
+    },
+    {
+      "id": 5173142960996352,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T13:47:04.504636Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 12.405000000000001,
+      "max_temp": 20.415,
+      "the_temp": 19.83,
+      "wind_speed": 3.92939061722209,
+      "wind_direction": 17.566809353246164,
+      "air_pressure": 1024.0,
+      "humidity": 50,
+      "visibility": 14.078717788117395,
+      "predictability": 70
+    },
+    {
+      "id": 5998170879295488,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T13:47:07.564305Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 13.91,
+      "max_temp": 20.615000000000002,
+      "the_temp": 18.990000000000002,
+      "wind_speed": 4.898944832471699,
+      "wind_direction": 33.23126594399707,
+      "air_pressure": 1024.0,
+      "humidity": 58,
+      "visibility": 13.537503479678676,
+      "predictability": 71
+    },
+    {
+      "id": 5585155012952064,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T13:47:10.462984Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 13.03,
+      "max_temp": 20.305,
+      "the_temp": 18.515,
+      "wind_speed": 5.2063499973514675,
+      "wind_direction": 31.339147617304707,
+      "air_pressure": 1022.5,
+      "humidity": 58,
+      "visibility": 13.35264554998807,
+      "predictability": 70
+    },
+    {
+      "id": 4729628364111872,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "NNE",
+      "created": "2022-02-01T13:47:13.443139Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 13.245000000000001,
+      "max_temp": 20.325000000000003,
+      "the_temp": 17.64,
+      "wind_speed": 4.3429338662212675,
+      "wind_direction": 13.999999999999993,
+      "air_pressure": 1022.0,
+      "humidity": 63,
+      "visibility": 9.999726596675416,
+      "predictability": 70
+    }
+  ],
+  "time": "2022-02-01T15:20:54.147999Z",
+  "sun_rise": "2022-02-01T07:26:51.478043Z",
+  "sun_set": "2022-02-01T18:01:36.945257Z",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Morocco",
+    "location_type": "Country",
+    "woeid": 23424893,
+    "latt_long": "31.434200,-6.402450"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Casablanca",
+  "location_type": "City",
+  "woeid": 1532755,
+  "latt_long": "33.596611,-7.619340",
+  "timezone": "Africa/Casablanca"
+}

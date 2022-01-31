@@ -1,0 +1,165 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 6527052447481856,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T14:57:10.634378Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 25.605,
+      "max_temp": 31.315,
+      "the_temp": 30.14,
+      "wind_speed": 4.776604406779077,
+      "wind_direction": 218.90263924116155,
+      "air_pressure": 1012.0,
+      "humidity": 70,
+      "visibility": 9.971454207428618,
+      "predictability": 71
+    },
+    {
+      "id": 4697465098862592,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T14:57:13.832477Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 26.24,
+      "max_temp": 30.795,
+      "the_temp": 30.155,
+      "wind_speed": 5.077161992669477,
+      "wind_direction": 206.59848708383117,
+      "air_pressure": 1012.0,
+      "humidity": 65,
+      "visibility": 10.082368965242981,
+      "predictability": 71
+    },
+    {
+      "id": 5018494207787008,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T14:57:17.032101Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 26.189999999999998,
+      "max_temp": 30.240000000000002,
+      "the_temp": 29.57,
+      "wind_speed": 5.579457274339194,
+      "wind_direction": 186.66908038147406,
+      "air_pressure": 1012.5,
+      "humidity": 67,
+      "visibility": 9.984192316869482,
+      "predictability": 73
+    },
+    {
+      "id": 4813025723809792,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T14:57:20.053135Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 26.18,
+      "max_temp": 30.095,
+      "the_temp": 29.145,
+      "wind_speed": 5.80129949639704,
+      "wind_direction": 183.66500913598082,
+      "air_pressure": 1012.5,
+      "humidity": 71,
+      "visibility": 10.23149805137994,
+      "predictability": 73
+    },
+    {
+      "id": 6002132449755136,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T14:57:23.051764Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 26.17,
+      "max_temp": 30.36,
+      "the_temp": 29.384999999999998,
+      "wind_speed": 5.59538384716721,
+      "wind_direction": 185.98774439863755,
+      "air_pressure": 1012.0,
+      "humidity": 70,
+      "visibility": 10.229944623399348,
+      "predictability": 73
+    },
+    {
+      "id": 6144394114629632,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T14:57:25.450121Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 26.299999999999997,
+      "max_temp": 29.869999999999997,
+      "the_temp": 28.4,
+      "wind_speed": 5.741198202497415,
+      "wind_direction": 181.49999999999997,
+      "air_pressure": 1012.0,
+      "humidity": 74,
+      "visibility": 9.999726596675416,
+      "predictability": 73
+    }
+  ],
+  "time": "2022-02-01T15:19:51.333736Z",
+  "sun_rise": "2022-02-01T06:32:42.569719Z",
+  "sun_set": "2022-02-01T18:26:42.130649Z",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Ivory Coast",
+    "location_type": "Country",
+    "woeid": 23424854,
+    "latt_long": "7.546850,-5.547090"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "HAMweather",
+      "slug": "hamweather",
+      "url": "http://www.hamweather.com/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Weather Underground",
+      "slug": "wunderground",
+      "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+      "crawl_rate": 720
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Abidjan",
+  "location_type": "City",
+  "woeid": 1339615,
+  "latt_long": "5.323390,-4.026270",
+  "timezone": "Africa/Abidjan"
+}

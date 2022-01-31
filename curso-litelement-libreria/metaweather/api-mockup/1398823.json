@@ -1,0 +1,153 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 4512428680282112,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T13:42:55.362373Z",
+      "applicable_date": "2022-02-01",
+      "min_temp": 20.225,
+      "max_temp": 32.54,
+      "the_temp": 28.555,
+      "wind_speed": 4.738356738633049,
+      "wind_direction": 184.27200805459447,
+      "air_pressure": 1012.0,
+      "humidity": 40,
+      "visibility": 10.270333750894775,
+      "predictability": 70
+    },
+    {
+      "id": 5330661926764544,
+      "weather_state_name": "Clear",
+      "weather_state_abbr": "c",
+      "wind_direction_compass": "SW",
+      "created": "2022-02-01T13:42:58.346948Z",
+      "applicable_date": "2022-02-02",
+      "min_temp": 21.25,
+      "max_temp": 33.47,
+      "the_temp": 32.635,
+      "wind_speed": 5.427884933611708,
+      "wind_direction": 231.60824998179578,
+      "air_pressure": 1011.5,
+      "humidity": 51,
+      "visibility": 10.139224429332696,
+      "predictability": 68
+    },
+    {
+      "id": 6724137625059328,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T13:43:01.433435Z",
+      "applicable_date": "2022-02-03",
+      "min_temp": 22.869999999999997,
+      "max_temp": 33.245000000000005,
+      "the_temp": 32.53,
+      "wind_speed": 5.772321402712161,
+      "wind_direction": 207.49241641591848,
+      "air_pressure": 1012.0,
+      "humidity": 58,
+      "visibility": 9.957473355603277,
+      "predictability": 71
+    },
+    {
+      "id": 5946510308016128,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T13:43:04.800013Z",
+      "applicable_date": "2022-02-04",
+      "min_temp": 23.945,
+      "max_temp": 33.730000000000004,
+      "the_temp": 32.835,
+      "wind_speed": 5.613680476680187,
+      "wind_direction": 192.2665756657415,
+      "air_pressure": 1012.0,
+      "humidity": 60,
+      "visibility": 9.852461624115168,
+      "predictability": 71
+    },
+    {
+      "id": 5523061194358784,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "S",
+      "created": "2022-02-01T13:43:07.575084Z",
+      "applicable_date": "2022-02-05",
+      "min_temp": 24.415,
+      "max_temp": 33.3,
+      "the_temp": 32.87,
+      "wind_speed": 5.9881279742464,
+      "wind_direction": 177.71867393380563,
+      "air_pressure": 1012.0,
+      "humidity": 60,
+      "visibility": 9.912113258569951,
+      "predictability": 71
+    },
+    {
+      "id": 6114875274166272,
+      "weather_state_name": "Showers",
+      "weather_state_abbr": "s",
+      "wind_direction_compass": "SSW",
+      "created": "2022-02-01T13:43:10.956346Z",
+      "applicable_date": "2022-02-06",
+      "min_temp": 24.134999999999998,
+      "max_temp": 33.095,
+      "the_temp": 34.55,
+      "wind_speed": 5.448038853097908,
+      "wind_direction": 203.5,
+      "air_pressure": 1011.0,
+      "humidity": 58,
+      "visibility": 9.999726596675416,
+      "predictability": 73
+    }
+  ],
+  "time": "2022-02-01T16:22:34.456349+01:00",
+  "sun_rise": "2022-02-01T07:04:17.414764+01:00",
+  "sun_set": "2022-02-01T18:55:31.794270+01:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "Nigeria",
+    "location_type": "Country",
+    "woeid": 23424908,
+    "latt_long": "9.084570,8.674250"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Lagos",
+  "location_type": "City",
+  "woeid": 1398823,
+  "latt_long": "6.439180,3.423480",
+  "timezone": "Africa/Lagos"
+}
