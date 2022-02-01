@@ -30,6 +30,7 @@ class SelectComponent extends LitElement {
 
   render() {
     const options = this.getSelectOptions(this.continent);
+
     return html`
       <select class="${this.getSelectClass()}" @change="${this.handleInputValueChange}">
         <option disabled selected>${this.selectPlaceholder}</option>
@@ -71,7 +72,13 @@ class SelectComponent extends LitElement {
   }
 
   handleInputValueChange(event) {
-    this.dispatchEvent(new CustomEvent('changed-value', { detail: { id: this.id, value: event.target.value } }));
+    this.dispatchEvent(
+      new CustomEvent('changed-value', {
+        bubbles: true,
+        composed: true,
+        detail: { id: this.id, value: event.target.value },
+      })
+    );
   }
 
   resetComponent() {

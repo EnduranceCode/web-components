@@ -2,14 +2,31 @@ import { css } from 'lit';
 
 export const resultsStyles = css`
   :host {
-    --default-color: #f3efee;
-    --primary-color: #9ebe1d;
-    --secondary-color: #73d0fb;
-    --warning-color: #f71906;
-    --focus-color: #cd5c5c;
+    --primary-color: #00d1b2;
+    --link-color: #485fc7;
+    --info-color: #3e8ed0;
+    --success-color: #48c78e;
+    --warning-color: #ffe08a;
+    --danger-color: #f14668;
+    --grey-dark: #4a4a4a;
+    --grey: #7a7a7a;
+    --grey-light: #b5b5b5;
+    --grey-lighter: #dbdbdb;
+
+    --results-gap: 15px;
+  }
+
+  .columns {
+    column-gap: var(--results-gap);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .column {
+    margin-bottom: var(--results-gap);
   }
 
   .error {
-    color: var(--warning-color);
+    color: var(--danger-color);
   }
 `;

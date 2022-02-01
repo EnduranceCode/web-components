@@ -15,7 +15,7 @@ class ButtonComponent extends LitElement {
 
   render() {
     return html`
-      <button class="${this.getButtonClass()}">
+      <button @click="${this.handleButtonClick}" class="${this.getButtonClass()} is-large">
         <slot></slot>
       </button>
     `;
@@ -38,6 +38,10 @@ class ButtonComponent extends LitElement {
       default:
         return 'button button--default';
     }
+  }
+
+  handleButtonClick() {
+    this.dispatchEvent(new CustomEvent('click-button', { bubbles: true, composed: true }));
   }
 }
 

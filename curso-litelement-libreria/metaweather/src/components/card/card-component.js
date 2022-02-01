@@ -16,24 +16,16 @@ class CardComponent extends LitElement {
   render() {
     return html`
       <div class="card">
-        <img src="${this.data.image}" class="card__image" />
+        <img src="${this.data.weather_state_img_url}" class="card__image" />
         <div class="card__body">
-          <p class="card__title">${this.data.name}</p>
-          <div>
-            <span class="card__item card__item--title">Status</span>
-            <span class="card__item card__item--data">${this.data.status}</span>
+          <p class="card__title">${this.data.applicable_date}</p>
+          <div class="card__item">
+            <div class="card__item--title">Weather State</div>
+            <div class="card__item--data">${this.data.weather_state_name}</div>
           </div>
-          <div>
-            <span class="card__item card__item--title">Species</span>
-            <span class="card__item card__item--data">${this.data.species}</span>
-          </div>
-          <div>
-            <span class="card__item card__item--title">Type</span>
-            <span class="card__item card__item--data">${this.data.type}</span>
-          </div>
-          <div>
-            <span class="card__item card__item--title">Gender</span>
-            <span class="card__item card__item--data">${this.data.gender}</span>
+          <div class="card__item">
+            <div class="card__item--title">Temp</div>
+            <div class="card__item--data">${Math.round((this.data.the_temp + Number.EPSILON) * 100) / 100} ºC</div>
           </div>
         </div>
       </div>

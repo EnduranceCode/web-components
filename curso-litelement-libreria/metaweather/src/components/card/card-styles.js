@@ -2,12 +2,15 @@ import { css } from 'lit';
 
 export const cardStyles = css`
   .card {
-    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.2);
-    margin-bottom: 30px;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
   }
 
   .card__image {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    max-width: 50%;
   }
 
   .card__body {
@@ -23,17 +26,15 @@ export const cardStyles = css`
 
   .card__item {
     margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .card__item--title {
-    display: inline-block;
     font-weight: 500;
-    width: 30%;
   }
 
   .card__item--data {
-    display: inline-block;
     text-align: right;
-    width: 65%;
   }
 `;
